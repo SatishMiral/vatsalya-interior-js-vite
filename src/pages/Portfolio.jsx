@@ -12,7 +12,7 @@ const StatsCard = ({ id, name, className = '', style = {}, delay = 0 , img}) => 
     return () => clearTimeout(timer);
   }, [delay]);
 
-  const route = "/portfolio:" + id;
+  const route = "/portfolio/" + id;
   console.log(route);
 
   return (

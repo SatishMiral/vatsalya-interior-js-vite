@@ -22,6 +22,7 @@ function App() {
             <Route path="/portfolio/:id" element={<PortfolioDetails />} /> {/* Dynamic route */}
             <Route path="/testimonials" element={<Testimonials />} />
             <Route path="/contact" element={<Contact />} />
+            {/* <Route path="/project" element={<ProjectCard/>}/> */}
           </Routes>
         </main>
         <WhatsAppButton />
