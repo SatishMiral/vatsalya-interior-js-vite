@@ -51,8 +51,8 @@ const Services = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl font-bold text-white mb-4">Our Services</h2>
-          <p className="text-gray-400 max-w-2xl mx-auto">
+          <h2 className="outfit-bold text-4xl font-bold text-white mb-4">Our Services</h2>
+          <p className="outfit text-gray-400 max-w-2xl mx-auto">
             We offer comprehensive architectural solutions to bring your vision to life
           </p>
         </motion.div>
@@ -69,7 +69,7 @@ const Services = () => {
                 y: -10,
                 transition: { duration: 0.2 }
               }}
-              className="relative group rounded-xl overflow-hidden bg-gray-800"
+              className="outfit relative group rounded-xl overflow-hidden bg-gray-800"
             >
               <div className="absolute inset-0 opacity-30 group-hover:opacity-50 transition-opacity duration-300">
                 <img 

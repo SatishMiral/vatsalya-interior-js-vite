@@ -57,7 +57,7 @@ const Home = () => {
                 whileInView={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.5 }}
                 viewport={{ once: true }}
-                className="text-3xl md:text-4xl font-bold mb-6"
+                className="outfit-bold text-3xl md:text-4xl mb-6"
               >
                 Meet Our Founder
               </motion.h2>
@@ -66,7 +66,7 @@ const Home = () => {
                 whileInView={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.2 }}
                 viewport={{ once: true }}
-                className="text-gray-600 text-lg mb-8"
+                className="outfit text-gray-600 text-lg mb-8"
               >
                 With over 20 years of experience in interior design, our founder
                 Sarah Anderson has transformed countless spaces into stunning
@@ -76,7 +76,7 @@ const Home = () => {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-black text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-gray-800 transition-colors duration-200"
+                className="bg-black text-white px-8 py-3 rounded-full text-lg outfit hover:bg-gray-800 transition-colors duration-200"
               >
                 Read Our Story
               </motion.button>

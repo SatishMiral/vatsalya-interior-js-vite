@@ -36,12 +36,12 @@ const PortfolioDetails = () => {
     <div className="min-h-screen py-20 px-6 relative flex flex-col items-center bg-gradient-to-r from-gray-200 via-gray-400 to-gray-800">
       <button
         onClick={() => navigate("/portfolio")}
-        className="absolute top-20 left-10 bg-gradient-to-r cursor-pointer from-gray-500 to-gray-700 text-white px-6 py-3 rounded-lg shadow-md hover:from-gray-800 hover:to-gray-700 transition duration-300 hidden md:block"
+        className="outfit-bold absolute top-20 left-10 bg-gradient-to-r cursor-pointer from-gray-500 to-gray-700 text-white px-6 py-3 rounded-lg shadow-md hover:from-gray-800 hover:to-gray-700 transition duration-300 hidden md:block"
       >
         ← Go to Portfolio
       </button>
 
-      <h1 className="text-4xl font-bold text-gray-900 text-center mb-12">
+      <h1 className="outfit-bold text-4xl text-gray-900 text-center mb-12">
         {selectedCategory ? selectedCategory.title : "Portfolio Details"}
       </h1>
       <div className="w-full max-w-6xl space-y-12">
@@ -82,8 +82,8 @@ const ProjectDetailCard = ({ project, index }) => {
       </div>
 
       <div className="w-full md:w-96 relative p-6">
-        <h3 className="text-4xl font-bold mb-4 text-gray-900">{project.title}</h3>
-        <p className="text-gray-700 text-2xl">{project.description}</p>
+        <h3 className="outfit-bold text-4xl font-bold mb-4 text-gray-900">{project.title}</h3>
+        <p className="outfit text-gray-700 text-2xl">{project.description}</p>
       </div>
     </motion.div>
   );

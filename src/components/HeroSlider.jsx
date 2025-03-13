@@ -63,7 +63,7 @@ const HeroSlider = () => {
                     initial={{ y: 30, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.8, delay: 0.3 }}
-                    className="text-5xl md:text-7xl font-bold mb-6 text-white"
+                    className="text-5xl md:text-7xl outfit-bold mb-6 text-white"
                   >
                     {slide.title}
                   </motion.h1>
@@ -71,7 +71,7 @@ const HeroSlider = () => {
                     initial={{ y: 30, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.8, delay: 0.5 }}
-                    className="text-xl md:text-2xl mb-8 text-white/90"
+                    className="text-xl md:text-2xl mb-8 text-white/90 outfit"
                   >
                     {slide.subtitle}
                   </motion.p>
@@ -82,7 +82,7 @@ const HeroSlider = () => {
                     transition={{ duration: 0.8, delay: 0.7 }}
                     whileHover={{ scale: 1.05, boxShadow: "0 10px 30px -10px rgba(0,0,0,0.3)" }}
                     whileTap={{ scale: 0.95 }}
-                    className="bg-white text-black px-8 py-4 rounded-full text-lg font-semibold cursor-pointer hover:bg-opacity-90 hover:bg-amber-400 transition-all duration-300 shadow-lg"
+                    className="outfit bg-white text-black px-8 py-4 rounded-full text-lg font-semibold cursor-pointer hover:bg-opacity-90 hover:bg-amber-400 transition-all duration-300 shadow-lg"
                   >
                     Explore Our Work
                   </motion.button>

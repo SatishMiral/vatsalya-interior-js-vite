@@ -30,11 +30,11 @@ function Testimonials() {
     <div className="min-h-screen bg-gray-100">
       <div className="container mx-auto px-4 py-16">
         <div className="text-center mb-16">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">Client Testimonials</h1>
+          <h1 className="text-4xl outfit-bold text-gray-900 mb-4">Client Testimonials</h1>
           <div className="flex justify-center mb-4">
             <MessageCircle className="w-12 h-12 text-blue-600" />
           </div>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <p className="outfit text-lg text-gray-600 max-w-2xl mx-auto">
             Do not just take our word for it. Here is what our clients have to say about working with us.
           </p>
         </div>
@@ -49,8 +49,8 @@ function Testimonials() {
                   className="w-16 h-16 rounded-full object-cover mr-4"
                 />
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900">{testimonial.name}</h3>
-                  <p className="text-gray-600">{testimonial.role}</p>
+                  <h3 className="outfit-bold text-xl font-bold text-gray-900">{testimonial.name}</h3>
+                  <p className="outfit text-gray-600">{testimonial.role}</p>
                 </div>
               </div>
               <p className="text-gray-600 italic">{testimonial.content}</p>

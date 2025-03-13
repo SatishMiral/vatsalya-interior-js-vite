@@ -61,7 +61,7 @@ const StatsCard = ({ id, name, className = '', style = {}, delay = 0, img }) => 
     >
       <div className="relative w-full h-full">
         <div className="absolute z-10 top-4 left-4">
-          <h1 className="text-3xl font-bold drop-shadow-lg">{name}</h1>
+          <h1 className="outfit-bold text-3xl font-bold drop-shadow-lg">{name}</h1>
         </div>
         <img 
           src={img} 

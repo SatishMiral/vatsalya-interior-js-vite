@@ -64,13 +64,13 @@ const Navbar = () => {
         <div className="flex justify-between h-16 items-center">
           <Link 
             to="/" 
-            className="text-2xl font-bold text-black hover:text-black transition-colors"
+            className="outfit-bold text-2xl font-bold text-black hover:text-black transition-colors"
           >
             Vatsalya Interior
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex space-x-8">
+          <div className="outfit hidden md:flex space-x-8">
             {navItems.map((item, i) => (
               <motion.div
                 key={item.path}

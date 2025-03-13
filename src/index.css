@@ -1,1 +1,20 @@
-@import "tailwindcss"
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'outfit';
+    src: url('./assets/Outfit-Regular.ttf') format('truetype');
+}
+
+.outfit {
+    font-family: 'outfit', sans-serif;  
+}
+
+@font-face {
+    font-family: 'outfit-bold';
+    src: url('./assets/Outfit-Bold.ttf') format('truetype');
+}
+
+.outfit-bold {
+    font-family: 'outfit-bold', sans-serif;  
+}
+  
